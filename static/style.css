@@ -1,0 +1,212 @@
+
+nav,
+footer{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #006400;
+    border-radius: 8px;
+}
+footer{
+  height: 68px;
+}
+
+
+#TrustLens h1, #TrustLens p {
+  color: white;
+}
+
+main{
+    height: 600px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textButton{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.submit{
+    margin-top: 40px !important;
+    margin: 0px;
+    border: 0px;
+}
+
+textarea {
+  height: 80px ;
+}
+
+.mistake{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+/* From Uiverse.io by SteveBloX */ 
+.card {
+    height: 500px !important ;
+    width: 800px;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  /* .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  } */
+
+
+  /* From Uiverse.io by xueyuantan */ 
+button {
+  
+    width: 9em;
+    height: 3em;
+    border-radius: 30em !important;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   .textButton  button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 9em;
+   }
+
+/* From Uiverse.io by gharsh11032000 */ 
+.button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: rgb(5, 4, 2);
+    border: 2px solid rgb(193, 163, 98);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    -webkit-transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:hover::before {
+    scale: 3;
+  }
+  
+  .button:hover {
+    color: #212121;
+    scale:1.1;
+    -webkit-box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+            box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+  }
+  
+  .button:active{
+  scale:1;
+  }
+
+
+
+
+
+
+
+  /* result pop up  */
+  
+.innerCard {
+  max-width: 250px;
+  padding: 16px;
+  height: 60px;
+  width: 300px;
+  border: 1px solid #f85149;
+  border-radius: 8px;
+  background: rgba(248, 81, 73, 0.1);
+  color: #b22b2b;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.innerCard .text {
+  flex-grow: 1;
+}
+
+.close-btn {
+  /* background: none; */
+  border: 1px solid #291817;
+  padding: 3px;
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
+  /* background-color: white; */
+  color: #1c0d0c;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity 0.3s;
+  margin-left: 10px;
+}
+
+.close-btn:hover {
+  opacity: 1;
+  background-color:white;
+}
+  
+  
+  
+  #symbol{
+    height: 5;
+  }
